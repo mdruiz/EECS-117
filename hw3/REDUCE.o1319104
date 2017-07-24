@@ -1,0 +1,131 @@
+Script began: Thu Mar 9 17:04:10 PST 2017
+Node: compute-1-14.local
+Current directory: /data/users/mdruiz/eecs117/hw3
+
+=== Running 5 trials of naive ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute naive GPU reduction kernel: 0.003351 secs
+Effective bandwidth: 10.01 GB/s
+Time to execute naive CPU reduction: 0.116014 secs
+SUCCESS: GPU: 41.946445 	CPU: 41.946445
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute naive GPU reduction kernel: 0.003425 secs
+Effective bandwidth: 9.80 GB/s
+Time to execute naive CPU reduction: 0.116036 secs
+SUCCESS: GPU: 41.946259 	CPU: 41.946262
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute naive GPU reduction kernel: 0.004897 secs
+Effective bandwidth: 6.85 GB/s
+Time to execute naive CPU reduction: 0.10449 secs
+SUCCESS: GPU: 41.947098 	CPU: 41.947098
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute naive GPU reduction kernel: 0.004724 secs
+Effective bandwidth: 7.10 GB/s
+Time to execute naive CPU reduction: 0.116058 secs
+SUCCESS: GPU: 41.949867 	CPU: 41.949863
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute naive GPU reduction kernel: 0.00466 secs
+Effective bandwidth: 7.20 GB/s
+Time to execute naive CPU reduction: 0.099664 secs
+SUCCESS: GPU: 41.944702 	CPU: 41.944702
+
+=== Running 5 trials of stride ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.00221 secs
+Effective bandwidth: 15.18 GB/s
+Time to execute naive CPU reduction: 0.116024 secs
+SUCCESS: GPU: 41.937843  CPU: 41.937843
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.002229 secs
+Effective bandwidth: 15.05 GB/s
+Time to execute naive CPU reduction: 0.099582 secs
+SUCCESS: GPU: 41.938873  CPU: 41.938873
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.002211 secs
+Effective bandwidth: 15.18 GB/s
+Time to execute naive CPU reduction: 0.115997 secs
+SUCCESS: GPU: 41.928116  CPU: 41.928116
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.00221 secs
+Effective bandwidth: 15.18 GB/s
+Time to execute naive CPU reduction: 0.115997 secs
+SUCCESS: GPU: 41.938465  CPU: 41.938465
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.002219 secs
+Effective bandwidth: 15.12 GB/s
+Time to execute naive CPU reduction: 0.099506 secs
+SUCCESS: GPU: 41.933716  CPU: 41.933716
+
+=== Running 5 trials of sequential ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001755 secs
+Effective bandwidth: 19.12 GB/s
+Time to execute naive CPU reduction: 0.116025 secs
+SUCCESS: GPU: 41.943520  CPU: 41.943520
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001768 secs
+Effective bandwidth: 18.98 GB/s
+Time to execute naive CPU reduction: 0.116014 secs
+SUCCESS: GPU: 41.953903  CPU: 41.953899
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001766 secs
+Effective bandwidth: 19.00 GB/s
+Time to execute naive CPU reduction: 0.104479 secs
+SUCCESS: GPU: 41.930992  CPU: 41.930992
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001767 secs
+Effective bandwidth: 18.99 GB/s
+Time to execute naive CPU reduction: 0.099629 secs
+SUCCESS: GPU: 41.939034  CPU: 41.939034
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001768 secs
+Effective bandwidth: 18.98 GB/s
+Time to execute naive CPU reduction: 0.11599 secs
+SUCCESS: GPU: 41.948685  CPU: 41.948685
+
+=== Done! ===

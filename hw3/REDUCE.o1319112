@@ -1,0 +1,131 @@
+Script began: Thu Mar 9 17:08:32 PST 2017
+Node: compute-1-14.local
+Current directory: /data/users/mdruiz/eecs117/hw3
+
+=== Running 5 trials of first_add ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute first add GPU reduction kernel: 0.000958 secs
+Effective bandwidth: 35.03 GB/s
+Time to execute naive CPU reduction: 0.116086 secs
+SUCCESS: GPU: 41.940201  CPU: 41.940201
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute first add GPU reduction kernel: 0.000958 secs
+Effective bandwidth: 35.03 GB/s
+Time to execute naive CPU reduction: 0.116053 secs
+SUCCESS: GPU: 41.947124  CPU: 41.947121
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute first add GPU reduction kernel: 0.000942 secs
+Effective bandwidth: 35.62 GB/s
+Time to execute naive CPU reduction: 0.116047 secs
+SUCCESS: GPU: 41.947124  CPU: 41.947121
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute first add GPU reduction kernel: 0.000962 secs
+Effective bandwidth: 34.88 GB/s
+Time to execute naive CPU reduction: 0.116056 secs
+SUCCESS: GPU: 41.939522  CPU: 41.939526
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute first add GPU reduction kernel: 0.000958 secs
+Effective bandwidth: 35.03 GB/s
+Time to execute naive CPU reduction: 0.116083 secs
+SUCCESS: GPU: 41.939522  CPU: 41.939526
+
+=== Running 5 trials of unroll ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute unrolled GPU reduction kernel: 0.00058 secs
+Effective bandwidth: 57.85 GB/s
+Time to execute naive CPU reduction: 0.116049 secs
+SUCCESS: GPU: 41.952499  CPU: 41.952503
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute unrolled GPU reduction kernel: 0.000559 secs
+Effective bandwidth: 60.03 GB/s
+Time to execute naive CPU reduction: 0.115988 secs
+SUCCESS: GPU: 41.935883  CPU: 41.935883
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute unrolled GPU reduction kernel: 0.000579 secs
+Effective bandwidth: 57.95 GB/s
+Time to execute naive CPU reduction: 0.116027 secs
+SUCCESS: GPU: 41.932873  CPU: 41.932877
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute unrolled GPU reduction kernel: 0.000578 secs
+Effective bandwidth: 58.05 GB/s
+Time to execute naive CPU reduction: 0.116002 secs
+SUCCESS: GPU: 41.947495  CPU: 41.947498
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute unrolled GPU reduction kernel: 0.000576 secs
+Effective bandwidth: 58.25 GB/s
+Time to execute naive CPU reduction: 0.116009 secs
+SUCCESS: GPU: 41.966476  CPU: 41.966476
+
+=== Running 5 trials of multiple ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute multiple add GPU reduction kernel: 0.000382 secs
+Effective bandwidth: 87.84 GB/s
+Time to execute naive CPU reduction: 0.116062 secs
+SUCCESS: GPU: 41.938515  CPU: 41.938519
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute multiple add GPU reduction kernel: 0.000405 secs
+Effective bandwidth: 82.85 GB/s
+Time to execute naive CPU reduction: 0.115996 secs
+SUCCESS: GPU: 41.952469  CPU: 41.952469
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute multiple add GPU reduction kernel: 0.000405 secs
+Effective bandwidth: 82.85 GB/s
+Time to execute naive CPU reduction: 0.116 secs
+SUCCESS: GPU: 41.939800  CPU: 41.939800
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute multiple add GPU reduction kernel: 0.00041 secs
+Effective bandwidth: 81.84 GB/s
+Time to execute naive CPU reduction: 0.115985 secs
+SUCCESS: GPU: 41.948952  CPU: 41.948952
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute multiple add GPU reduction kernel: 0.000407 secs
+Effective bandwidth: 82.44 GB/s
+Time to execute naive CPU reduction: 0.115981 secs
+SUCCESS: GPU: 41.944553  CPU: 41.944553
+
+=== Done! ===
